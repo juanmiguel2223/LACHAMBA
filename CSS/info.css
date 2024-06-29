@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../imagenes/servicios-salon-barberia.jpeg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.FORM-cont {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(70, 68, 68, 0.9); /* Fondo semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.dtn {
+    display: block;
+    width: 120px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #cf2d3a; /* Color de fondo del botón */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.dtn:hover {
+    background-color: #dd4b57; /* Cambio de color al pasar el ratón */
+}

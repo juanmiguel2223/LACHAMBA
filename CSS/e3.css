@@ -1,0 +1,58 @@
+header{
+    padding: 30px;
+    text-align: center;
+    background-color:#080008;
+    color:#ffffff;
+}
+
+img{
+    height:300px ;
+    object-fit: cover;
+    margin-top: 30px;
+}
+.botonimagen{
+    text-align:start;
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+h3{
+    text-align:justify;
+}
+p{
+    text-align: justify;
+}
+body{
+    background: rgb(5,32,99);
+    background: linear-gradient(90deg, rgba(5,32,99,1) 0%, rgba(50,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+main{
+    text-align: justify;
+    color: #ffffff;
+}
+footer{
+text-align: center;
+background-color: #080008;
+color: #ffffff;
+padding: 15px;
+}
+ul{
+    text-align: justify;
+    }
+   *{
+    padding: 0%;
+   }
+    .anidadas{
+        text-align: justify;
+    }
+    ul{
+        width: 60%;
+        font-size: 18px;
+    }
+    .pro{
+        width:40%;
+    }
+    section{
+        display: flex;
+    }
+    

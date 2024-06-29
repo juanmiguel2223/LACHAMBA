@@ -1,0 +1,121 @@
+/* Archivo: e2.css */
+
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header .botonimagen {
+    float: right;
+    margin-right: 20px;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilo para el formulario de agendar cita */
+section {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form label {
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form select {
+    width: calc(50% - 20px);
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilo para el botón de regreso al inicio */
+.botonredes {
+    display: block;
+    margin: 20px auto;
+    width: 50px;
+    height: auto;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

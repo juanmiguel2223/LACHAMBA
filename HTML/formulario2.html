@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/FORMULARIO2.CSS">
+    <link rel="shortcut.icon" href="../IMAGENES/logo1.1.ico">
+    <link rel="icon" type="image/x-icon" href="../IMAGENES/logo1.1.ico">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="FORM-cont">
+        <h2>Bienvenido a Barberia LA CHAMBA</h2>
+    <form action="../PHP/insertaregistros.php" method="POST">
+        <label for="correo">Email</label>
+        <input type="email" name="correo" id="correo" required maxlength="80">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name"required  maxlength="80">
+
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" required maxlength="20">
+
+        <label for="telefono">Teléfono</label>
+        <input type="number" name="telefono" id="telefono" required maxlength="11">
+
+        <input class="dtn" type="submit" value="Enviar">
+
+        <input class="dtn" type="reset" value="Borrar">
+    </form>
+</div>
+</body>
+</html>

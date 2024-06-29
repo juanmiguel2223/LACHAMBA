@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* Estilos del header */
+.header {
+    background-image: url(../IMAGENES/bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    color: #cf2d3a;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-icono {
+    display: none;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.menu .navbar ul {
+    display: flex;
+}
+
+.menu .navbar ul li {
+    margin-right: 20px;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 10px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+.menu .navbar ul li a:hover {
+    color: #cf2d3a;
+}
+.header-txt h1,span,h3 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #cf2d3a;
+    margin-bottom: 15px;
+}
+img{
+    width: 100px;
+    height:100px ;
+    border-radius: 25%;
+    object-fit: cover;
+}
+.botonimagen{
+    text-align:start;
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+.imgalado{
+    text-align:right;
+    
+}
+h3{
+    text-align:justify;
+}
+p{
+    text-align: justify;
+}
+body{
+    background-color: #1f1f1f;
+}
+main{
+    text-align: center;
+    color: #ffffff;
+}
+footer{
+text-align: center;
+background-color: #080008;
+color: #ffffff;
+padding: 15px;
+bottom:0;
+}
+table{
+    width: 100%;
+     height: 700px; 
+     padding: 60px;
+    }
+    .botonredes{
+        width: 70px;
+        height: 70px;
+        margin: 0%;
+    }
+    article{
+        text-align: center;
+    }
+    button{
+        display: inline-block;
+        padding: 11px 25px;
+        background-color: #d82e37;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 20px;
+        margin: 25px 0;
+        border: 0;
+    }
+    .cita-1{
+        margin-bottom: 15px;
+    }
+    .cita{
+        margin: 5px;
+        padding: 2opx 15px;
+        width: 250px;
+        background-color: #0e0e0e;
+        border: 1px solid #cf2d3a;
+        outline:none;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 14px;
+    }
+    
+    

@@ -1,0 +1,166 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    background-image: url(../IMAGENES/bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #cf2d3a;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu .navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu .navbar ul li {
+    margin-right: 20px;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.menu .navbar ul li a:hover {
+    color: #cf2d3a;
+}
+
+.menu-icono {
+    display: none;
+}
+
+/* Contenido principal */
+main {
+    padding: 40px;
+}
+
+main h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #cf2d3a;
+    text-transform: uppercase;
+}
+
+main ol {
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+main ol li {
+    margin-bottom: 30px;
+}
+
+main h3 {
+    font-size: 28px;
+    color: #cf2d3a;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 16px;
+    color: #afafaf;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Imágenes y enlaces */
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+main{
+    text-align: center;
+}
+main .botonredes {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+}
+.header-txt h1,span,h3 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #cf2d3a;
+    margin-bottom: 15px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #070707;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h2 {
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Enlaces */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

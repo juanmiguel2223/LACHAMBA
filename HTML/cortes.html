@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+    <link rel="shortcut.icon" href="../IMAGENES/logo1.1.ico">
+    <link rel="icon" type="image/x-icon" href="../IMAGENES/logo1.1.ico">
+    <title>LA CHAMBA BARBER STORE </title>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="30">
+    <link rel="stylesheet" href="../CSS/e2.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-txt">
+        <h1 id="inicio">Algunos de los cortes con los que contamos son</h1></div>
+        <div class="menu content">
+            <img src="../IMAGENES/logo1.1.jpg"width="80px" height="80px">
+            <label for="menu">
+                <img src="" class="menu-icono" alt="Icono de menú">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.php">Inicio</a></li>
+                    <li><a href="../HTML/cortes.html">Cortes</a></li>
+                    <li><a href="../HTML/Productos_cabello.html">Productos</a></li>
+                    <li><a href="../HTML/listasanidadas.html">Uso de los productos</a></li>
+                    <li><a href="../HTML/nosotros.html">Nosotros</a></li>
+                    <li><a href="../HTML/formulario2.html">Registrarse</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header><!-- contiene encabezados, logotipos o formulario de búsqueda -->
+
+    <main>
+        <article>
+            <form action="../php/cita.php" method="POST">
+                <table>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="radio" name="corte" value="Degradado (Fade)" required>
+                                <strong style="font-size: 25px;"> Degradado (Fade):</strong>
+                                <br>Implica que el cabello se corta gradualmente, desde corto en la parte inferior hasta más largo en la parte superior.<br>
+                                <img src="../IMAGENES/fade.jpg" alt="">
+                            </label>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="radio" name="corte" value="Undercut">
+                                <strong style="font-size: 25px;"> Undercut:</strong>
+                                <br>Similar al fade, pero con un contraste más marcado entre los lados cortos y la parte superior más larga.<br>
+                                <img src="../IMAGENES/Undercut.jpg" alt="">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="radio" name="corte" value="Pompadour">
+                                <strong style="font-size: 25px;"> Corte Pompadour:</strong>
+                                <br>Caracterizado por tener el cabello largo en la parte superior y los lados cortos o con un fade.<br>
+                                <img src="../IMAGENES/Corte Pompadour.jpg" alt="">
+                            </label>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="radio" name="corte" value="Buzz Cut o Rapado">
+                                <strong style="font-size: 25px;"> Buzz Cut o Rapado:</strong>
+                                <br>Un corte de cabello corto en el que todo el cabello se corta uniformemente con una máquina de afeitar o tijeras.<br>
+                                <img src="../IMAGENES/Buzz Cut o Rapado.jpg" alt="">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="radio" name="corte" value="Quiff">
+                                <strong style="font-size: 25px;"> Quiff:</strong>
+                                <br>Similar al pompadour, pero con un flequillo más pronunciado que se peina hacia arriba y hacia adelante.<br>
+                                <img src="../IMAGENES/Quiff.jpg" alt="">
+                            </label>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="radio" name="corte" value="Corte Caesar">
+                                <strong style="font-size: 25px;"> Corte Caesar:</strong>
+                                <br>Caracterizado por un flequillo más corto y texturizado, con los lados recortados o con un fade suave.<br>
+                                <img src="../IMAGENES/Corte Caesar.jpg" alt="">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                <input type="radio" name="corte" value="Corte Crop">
+                                <strong style="font-size: 25px;"> Corte Crop:</strong>
+                                <br>Un corte corto en la parte superior con los lados también cortos, a menudo con una franja texturizada en la parte delantera.<br>
+                                <img src="../IMAGENES/Corte Crop.jpg" alt="">
+                            </label>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="radio" name="corte" value="Corte Taper">
+                                <strong style="font-size: 25px;"> Corte Taper:</strong>
+                                <br>Similar al fade pero con una transición más suave entre los lados y la parte superior.<br>
+                                <img src="../IMAGENES/Corte Taper.jpg" alt="">
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+                <div class="cita-1">
+                    <label class="cita" for="correo">Correo Electrónico:</label>
+                    <input class="cita" type="email" id="correo" name="correo" required><br><br>
+                    <label class="cita" for="fecha">Fecha de la Cita:</label>
+                    <input class="cita" type="date" id="fecha" name="fecha" required><br><br>
+                    <label class="cita" for="hora">Hora de la Cita:</label>
+                    <input class="cita" type="time" id="hora" name="hora" required><br><br>
+                <button type="submit">
+                <p> Agendar Cita</p>
+                </button>
+            </div>
+            </form>
+        </article>
+    </main><!-- Es el cuerpo del programa -->
+
+    <footer>
+        <h2>Edgar Miguel Rivera Amaro, Juan Diego Paez Lazarin</h2>
+    </footer><!-- Es un pie de página -->
+
+</body>
+
+</html>

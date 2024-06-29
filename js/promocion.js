@@ -1,0 +1,1 @@
+alert("Al realizarte el corte Nazario, se te dará un descuento del 50% en productos para el cabello.");
